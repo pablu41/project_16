@@ -1,6 +1,6 @@
  Database_name:  facebook_db
 
-first_tablt:
+first_table:
 
  table_mame: fb_users
 
