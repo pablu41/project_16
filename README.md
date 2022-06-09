@@ -1,0 +1,2 @@
+# project_16
+Datababe INNER JOIN, LEFT JOIN, RIGHT JOIN
