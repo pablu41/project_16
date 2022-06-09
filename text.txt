@@ -1,0 +1,52 @@
+ Database_name:  facebook_db
+
+first_tablt:
+
+ table_mame: fb_users
+
+
+ id   name  age,  email ,       
+
+ 1.  'Pablu'  '20'  'pablu@gmail.com'  
+
+ 2.  'Saleh'  '22'  'saleh@gmail.com'  
+
+ 3.  'Ahmed'  '19'  'ahmed@gmail.com'  
+
+ 4.  'Joy'  '23'  'joy@gmail.com' 
+
+ 5.  'Ruhul'  '24'  'Ruhul@gmail.com'  
+
+
+
+ second_table:
+
+ user_details:
+
+ id    user_id       details
+
+ 1.    1             'sylhet, bangladesh'
+
+ 2.    2             'dhaka, bangladesh'
+
+
+
+  INNER JOIN ASSIGNMENT:
+
+  SELECT fb_users.id, fb_users.name, fb_users.email, user_details.details RROM fb_users
+  INNER JOIN user_details ON fb_users.id = user_details.user_id
+
+
+
+  LEFT JOIN ASSIGNMENT: 
+
+  SELECT fb_users.id, fb_users.name, fb_users.email, user_details.details RROM fb_users
+  LEFT JOIN user_details ON fb_users.id = user_details.user_id
+
+
+
+  RIGHT JOIN ASSIGNMENT: 
+
+  SELECT fb_users.id, fb_users.name, fb_users.email, user_details.details RROM fb_users
+  RIGHT JOIN user_details ON fb_users.id = user_details.user_id
+
